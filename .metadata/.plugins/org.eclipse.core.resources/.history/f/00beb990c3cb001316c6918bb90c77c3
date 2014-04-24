@@ -1,0 +1,29 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class CalTests {
+
+	public static void main(String args[]){
+		org.junit.runner.JUnitCore.main("CalTests");
+	}
+	
+	@Test
+	public void addTest() {
+		
+	}
+	@Test
+	public void subTest() {
+		
+	}
+	@Test
+	public void divTest() {
+		
+	}
+	@Test
+	public void multTest() {
+		
+	}
+
+}

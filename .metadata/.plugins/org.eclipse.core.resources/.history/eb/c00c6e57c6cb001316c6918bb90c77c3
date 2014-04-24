@@ -1,0 +1,36 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class CalTests {
+
+	public static void main(String args[]){
+		org.junit.runner.JUnitCore.main("CalTests");
+	}
+	
+	Calculator cal = new Calculator();
+	Calculator cal1 = new Calculator(5,5);
+	@Test
+	public void addTest() {
+		assertEquals(2,cal.add());
+		assertEquals(10,cal1.add());
+	}
+	@Test
+	public void subTest() {
+		assertEquals(0,cal.subtract());
+		assertEquals(0,cal1.subtract());
+	}
+	@SuppressWarnings("deprecation")
+	@Test
+	public void divTest() {
+		assertEquals(1.0,cal.divide());
+		assertEquals(1.0,cal1.divide());
+	}
+	@Test
+	public void multTest() {
+		assertEquals(1,cal.multiply());
+		assertEquals(25,cal1.multiply());
+	}
+
+}
