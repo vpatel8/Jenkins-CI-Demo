@@ -18,6 +18,16 @@ public class Calculator{
 		return x+y; 
 	}
 	
+	public int addX(int n)
+	{ 
+		return x+n; 
+	}
+	
+	public int addY(int n)
+	{ 
+		return y+n; 
+	}
+	
 	/*
 	public double add(double x, double y)
 	{ 
@@ -27,6 +37,17 @@ public class Calculator{
 	public int subtract(){ 
 		return x-y; 
 	}
+	
+	public int subtractX(int n)
+	{ 
+		return x-n; 
+	}
+	
+	public int subtractY(int n)
+	{ 
+		return y-n; 
+	}
+	
 	
 	/*
 	public double subtract(double x, double y){ 
